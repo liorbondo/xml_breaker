@@ -1,0 +1,6 @@
+<Entity>
+        <Name>Ent1</Name>
+    	<Type>Tank</Type>
+		<Device>Dev1</Device>
+	</Entity>
+    

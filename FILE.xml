@@ -1,0 +1,33 @@
+<Entities>
+	<DeviceType>
+        <Name>Dev1</Name>
+        <Dll>dev1.dll</Dll>
+        <Lru>dev1.lrux</Lru>
+    </DeviceType>
+	<DeviceType>
+        <Name>Dev2</Name>
+        <Dll>dev2.dll</Dll>
+        <Lru>dev2.lrux</Lru>
+    </DeviceType>
+	<Entity>
+        <Name>Ent1</Name>
+    	<Type>Tank</Type>
+		<Device>Dev1</Device>
+	</Entity>
+    <Entity>
+        <Name>Ent2</Name>
+		<Type>Aircraft</Type>
+        <Device>Dev2</Device>
+    </Entity>
+    <Entity>
+        <Name>Ent3</Name>
+		<Type>Infantry</Type>
+        <Device>Dev2</Device>
+        <Device>Dev1</Device>
+    </Entity>
+    <Entity>
+        <Name>Ent4</Name>
+		<Type>Aircraft</Type>
+        <Device>Dev2</Device>
+    </Entity>
+</Entities>	

@@ -1,0 +1,7 @@
+<Entity>
+        <Name>Ent3</Name>
+		<Type>Infantry</Type>
+        <Device>Dev2</Device>
+        <Device>Dev1</Device>
+    </Entity>
+    

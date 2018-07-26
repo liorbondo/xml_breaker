@@ -1,0 +1,6 @@
+<DeviceType>
+        <Name>Dev2</Name>
+        <Dll>dev2.dll</Dll>
+        <Lru>dev2.lrux</Lru>
+    </DeviceType>
+	

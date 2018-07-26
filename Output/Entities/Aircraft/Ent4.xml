@@ -1,0 +1,5 @@
+<Entity>
+        <Name>Ent4</Name>
+		<Type>Aircraft</Type>
+        <Device>Dev2</Device>
+    </Entity>
