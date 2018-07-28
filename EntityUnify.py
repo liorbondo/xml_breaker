@@ -1,12 +1,10 @@
-#from xml.dom import minidom1
-
 import os
 import xml.etree.ElementTree as ET
 
 root_dir = "./Output/"
 entities_dir = format(root_dir + "Entities/")
 
-def CreateDirectory(dir_path):
+def SetTags(dir_path):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
@@ -16,7 +14,6 @@ def CreateElementFile(element, directory):
     CreateDirectory(directory)
     file_with_path = os.path.join(directory, filename)
     with open(file_with_path, 'wb') as f:
-        #xmlstr = minidom.parseString(ET.tostring(element)).toprettyxml(indent="   ")
         f.write(ET.tostring(element))
 
 #Create Entities folder
